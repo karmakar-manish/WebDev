@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    
+</head>
+<body>
+    <h1>This is a sample Table example</h1>
+    <table border="1">
+        
+        <thead>
+            <th>Student ID</th>
+            <th>Student name</th>
+            <th>Gender</th>
+            <th>Age</th>
+        </thead>
+        <tr>
+            <td>1234</td>
+            <td colspan="3">Bill</td>
+            <!-- <td>Male</td> -->
+            <!-- <td>17</td> -->
+        </tr>
+        <tr>
+            <td>1234</td>
+            <td>John</td>
+            <td>Male</td>
+            <!-- expand the cell with 27 value till 3 row  -->
+            <td rowspan="3">27</td>
+        </tr>
+        <tr>
+            <td>1234</td>
+            <td>Sunny</td>
+            <td>Female</td>
+            <!-- <td>20</td> -->
+        </tr>
+        <tr>
+            <td>1234</td>
+            <td>Sam</td>
+            <td>Male</td>
+            <!-- <td>34</td> -->
+        </tr>
+    </table>
+
+    <h1>This is second sample table </h1>
+    <table border="1">
+        <thead>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </thead>
+        <tr>
+            <td rowspan="2">Row 1 Cell 1</td>
+            <td>Row 1 Cell 2</td>
+            <td>Row 1 Cell 3</td>
+        </tr>
+        <tr>
+            <td>Row 2 Cell 2</td>
+            <td>Row 2 Cell 3</td>
+        </tr>
+        <tr>
+            <td colspan="3">Row 3 Cell 1</td>
+        </tr>
+    </table>
+</body>
+</html>

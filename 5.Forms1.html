@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>1.Basic form in HTML</h1>
+    <!-- to collect user inputs (data) -->
+
+    <form action="">
+        <label for="email">Enter Email ID </label>
+        <input type="text" placeholder="email" name="name" id="email">  <br><br>
+
+        <label for="password">Enter Password</label>
+        <input type="text" placeholder="password" name="password" id="password"> <br><br>
+
+        <!-- <button>Submit</button> -->
+         <input type="submit" value="Click here">
+    </form>
+    <br><br>
+
+    <h1>2. Second Form</h1>
+
+    <fieldset>
+        <legend>HTML form</legend>
+        <form action="">
+            <label for="date">Choose Date</label>
+            <input type="date" id="date">   <br><br>
+            
+            <label for="selector1">Choose your dish </label>
+            <!-- dropdown -->
+            <select name="dishes" id="selector1">
+                <option value="maggi">Maggi</option>
+                <option value="chips">Chips</option>
+                <option value="biryani">Biryani</option>
+            </select>
+            <br><br>
+
+            <textarea name="textArea1" id="textArea1" cols="40" rows="20" placeholder="Enter your order...."></textarea>
+
+            <br><br>
+            <input type="submit" value="Submit Order">
+
+        </form>
+    </fieldset>
+    
+    <br><br>
+    <h1>3.Input types in HTML forms</h1>
+    <form action="">
+        <label for="textfield1">TextField: </label>
+        <input type="text" name="textfield" id="textfield1">
+
+        <br><br>
+
+        <label for="button">Button</label>
+        <input type="submit" value="Button">
+        <br><br>
+
+        <label for="radiobutton1">Male</label>
+        <input type="radio" name="radio" id="radiobutton1">
+        <br>
+        <label for="radiobutton2">Female</label>
+        <input type="radio" name="radio" id="radiobutton2">
+        <br>
+        <label for="radiobutton3">One of above</label>
+        <input type="radio" name="radio" id="radiobutton3">
+        
+
+        <br><br>
+        <label for="checkbox1">English</label>
+        <input type="checkbox" id="checkbox1">
+        <br>
+        <label for="checkbox2">Bengali</label>
+        <input type="checkbox" id="checkbox2">
+        <br>
+        <label for="checkbox3">Hindi</label>
+        <input type="checkbox" id="checkbox3">
+        
+        <br><br>
+        <label for="fileselect1">Upload</label>
+        <input type="file" name="fileselect1" id="fileselect1">
+        
+        <br><br>
+
+        <!-- button to make an image as button  -->
+        <label for="imagebutton1">Image Button</label>
+        <input type="image" name="imagebutton1" id="imagebutton1" alt="clickHere" src="./Images/arrowImage.png" width="40px" height="40px">
+        
+        <br><br>
+        <!-- for password input  -->
+         <label for="password1">Enter password : </label>
+         <input type="password" id="password1">
+    </form>
+</body>
+</html>
